@@ -1,0 +1,2 @@
+Projekt Sealcode
+grupa średniozaawansowana
