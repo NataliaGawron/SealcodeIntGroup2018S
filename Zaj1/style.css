@@ -1,0 +1,12 @@
+
+footer { 
+    background-color: rgba(0, 0, 0, 0.4);
+    color: ghostwhite;
+    text-align: center; 
+    margin: 20px;
+    padding: 5px; 
+    border-radius: 20px;
+    flex-direction: row;
+    border: 3px solid rgba(145, 87, 81, 0.7);
+    box-shadow: 4px 4px 12px 4px  rgba(0, 0, 0, 0.5);
+ }
