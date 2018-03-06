@@ -1,2 +1,2 @@
-Projekt Sealcode
+Zajęcia Sealcode
 grupa średniozaawansowana
