@@ -3,7 +3,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Formularz Kontaktowy - Tytuł naszej strony</title>
+<title>Formularz Kontaktowy - Praca domowa</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 

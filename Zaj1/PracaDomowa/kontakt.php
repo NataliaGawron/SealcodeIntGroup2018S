@@ -6,6 +6,9 @@ $name = $_POST['name'];
 // Tworzymy zmienną dla nazwiska
 $surname = $_POST['surname'];
 
+// Podajesz płeć
+$sex = $_POST['sex']; 
+
 // Tworzymy zmienną dla adresu email
 $email = $_POST['email'];
 
@@ -13,23 +16,31 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 // Podajesz adres email z którego ma być wysłana wiadomość
-$odkogo = "klara.norwag@gmail.com";
+$odkogo = "nazwa@gmail.com";
 
 // Podajesz adres email na który chcesz otrzymać wiadomość
 $dokogo = "klara.norwag@gmail.com";
 
 // Podajesz tytuł jaki ma mieć ta wiadomość email
-$tytul = "Wiadomość z pracy domowej";
+$tytul = "Wiadomość z pracy domowej :)";
+
+if (isset($_POST['subscribe']))   
+   $newsletter = $_POST['subscribe'];    
+else
+   $newsletter = "nothing was selected.";
+
 
 // Przygotowujesz treść wiadomości
 $wiadomosc = "";
 $wiadomosc .= "Imie: " . $name . "\n";
 $wiadomosc .= "Nazwisko: " . $surname . "\n";
+$wiadomosc .= "Płeć: " . $sex . "\n";
 $wiadomosc .= "Email: " . $email . "\n";
-$wiadomosc .= "Wiadomość: " . $message . "\n";
+$wiadomosc .= "Wiadomość: " . $message . "\n"; 
+$wiadomosc .= "Zapis do newslettera: " . $newsletter . "\n";
 
 // Wysyłamy wiadomość
-$sukces = mail($dokogo, $tytul, $wiadomosc, "Od: <$odkogo>");
+$sukces = mail($dokogo, $tytul, $wiadomosc, "Od: <$odkogo>", $message);
 
 // Przekierowywujemy na potwierdzenie
 if ($sukces){
