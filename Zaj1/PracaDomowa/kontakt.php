@@ -6,6 +6,9 @@ $name = $_POST['name'];
 // Tworzymy zmienną dla nazwiska
 $surname = $_POST['surname'];
 
+// Tworzymy zmienną dla daty urodzin
+$birthday = $_POST['birthday'];
+
 // Podajesz płeć
 $sex = $_POST['sex']; 
 
