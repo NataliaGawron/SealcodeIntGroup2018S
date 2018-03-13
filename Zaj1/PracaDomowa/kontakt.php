@@ -37,6 +37,7 @@ else
 $wiadomosc = "";
 $wiadomosc .= "Imie: " . $name . "\n";
 $wiadomosc .= "Nazwisko: " . $surname . "\n";
+$wiadomosc .= "Data urodzenia: " . $birthday . "\n";
 $wiadomosc .= "Płeć: " . $sex . "\n";
 $wiadomosc .= "Email: " . $email . "\n";
 $wiadomosc .= "Wiadomość: " . $message . "\n"; 
