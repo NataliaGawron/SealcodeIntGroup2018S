@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Do zrobienia na dziś...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Shortcut icon" href="img/ico/favicon.ico" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/clock.js"></script>
+
+
+
+</head>
+
+<body ng-app="">
+    <header>
+        <h1>Zadania do zrobienia:</h1>
+        <p id="date"></p>
+
+    </header>
+
+    <div class="container">
+        <div class="addTask">
+        </div>
+        <div class="newTask">
+            <input type="text" name="typeNewTask" id="typeNewTask" size="100" maxlength="80" placeholder="Dodaj zadanie..." />
+            <br />
+            <input type="button" id="addByClick" name="addNewTask" value="Dodaj zadanie" />
+        </div>
+
+        <h6>Jeśli chcesz usunąć zadanie, kliknij dwukrotnie na przycisk usuwania</h6>
+
+        <div class="toDoList">
+
+        </div>
+    </div>
+    <footer class="container-fluid">
+        &#169 Natalia Gawron
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qwest/4.4.6/qwest.min.js"></script>
+    <script src="js/deleteFunctions.js"></script>
+    <script src="js/newTask.js"></script>
+    <script src="js/restApi.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
