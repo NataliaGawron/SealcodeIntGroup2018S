@@ -152,7 +152,7 @@ header {
 .table th {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    color: #607d8b;
+    color: #b5c8d1;
 }
 
 .table td {
@@ -314,6 +314,7 @@ header {
     padding: 5px 3px;
     border-radius: 50%;
     color: #fff;
+    margin-left: 4rem;
     margin-top: -8px;
 }
 
