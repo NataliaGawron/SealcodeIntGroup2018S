@@ -1,0 +1,24 @@
+body	{ 
+    text-align: center; 
+    margin: 20px;
+    padding: 15px; 
+    flex-direction: row;
+    border: 3px solid rgba(145, 87, 81, 0.7);
+	text-align: centre;
+    font-size: 49px;
+    border: 5px solid rgba(145, 87, 81, 0.7);
+    box-shadow: 4px 4px 12px 4px  rgba(154, 61, 62, 0.5);
+	background-image:url("https://www.sosrodzice.pl/media/uploads/2015/10/cukierki3.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+ }
+ 
+ p{
+	 font-weight: 900;
+ }
+ 
